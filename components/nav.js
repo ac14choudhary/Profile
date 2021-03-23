@@ -7,10 +7,16 @@ export default function nav() {
     <nav className={navStyles.nav}>
       <ul>
         <li>
-          <Link href="/">HOME</Link>
+          <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/about">ABOUT ME</Link>
+          <Link href="/about">About me</Link>
+        </li>
+        <li>
+          <Link href="/projects">Projects</Link>
+        </li>
+        <li>
+          <Link href="/contact">Contact Me</Link>
         </li>
       </ul>
     </nav>

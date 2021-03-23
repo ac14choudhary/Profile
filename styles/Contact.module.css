@@ -1,0 +1,9 @@
+ .title a:focus,
+  .title a:active {
+    text-decoration: underline;
+  }
+
+  .title a:hover {
+    color: #0070f3;
+    text-decoration: none;
+  }

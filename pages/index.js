@@ -45,12 +45,6 @@ export default function Home() {
           </a>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a href="https://inception." target="_blank" rel="noopener noreferrer">
-          made with love by <img src="/firebase.png" className={styles.logo} />
-        </a>
-      </footer>
     </div>
   );
 }

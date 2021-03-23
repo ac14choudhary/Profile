@@ -6,7 +6,8 @@
     display:flex;
     align-items: center;
     justify-content: flex-end;
-    box-shadow: 1px 1px 30px grey;
+    box-shadow: 10px 5px 20px #aaaaaa;
+
     
 }
 
@@ -18,6 +19,11 @@
 }  
 
 .nav ul li a{
-   margin: 5px 15px;
+   margin: 10px 20px;
 
 }  
+
+.nav ul li a:hover{
+   color: #a1a1a1;;
+ }
+ 
