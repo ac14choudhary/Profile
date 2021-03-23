@@ -41,7 +41,7 @@ export default function Home() {
             className={styles.card}
           >
             <h3>LinkedIn &rarr;</h3>
-            <p>Want to see my Digital resume ?</p>
+            <p>Want to see my Digital resume at a single glance?</p>
           </a>
         </div>
       </main>

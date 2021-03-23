@@ -1,3 +1,15 @@
+ .outer {
+
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+min-height: 10vh;
+ 
+
+
+ }
+ 
  .title a:focus,
   .title a:active {
     text-decoration: underline;
@@ -6,4 +18,44 @@
   .title a:hover {
     color: #0070f3;
     text-decoration: none;
+  }
+
+  .card:hover{
+ 
+    text-decoration: none;
+  }
+
+  .card{
+    border-radius: 10px;
+    border: 1.5px solid #eaeaea;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  
+
+  .heading {
+
+color: #aaaaaa;
+font-size: 24px;
+font-weight: 500;
+align-self: center;
+
+  }
+  .heading:hover {
+
+  color: black;
+    
+      }
+
+  .subheading {
+  
+    align-self: center;
+    
+
   }
