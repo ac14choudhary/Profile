@@ -5,10 +5,17 @@
  justify-content: center;
  align-items: center;
 min-height: 10vh;
- 
+  }
 
+  .title{
 
- }
+padding: 10px;
+font-size: 40px;
+font-weight :600; 
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  }
+
  
  .title a:focus,
   .title a:active {
@@ -25,37 +32,7 @@ min-height: 10vh;
     text-decoration: none;
   }
 
-  .card{
-    border-radius: 10px;
-    border: 1.5px solid #eaeaea;
-    align-self: center;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-  }
+  
   
 
-  .heading {
-
-color: #aaaaaa;
-font-size: 24px;
-font-weight: 500;
-align-self: center;
-
-  }
-  .heading:hover {
-
-  color: black;
-    
-      }
-
-  .subheading {
-  
-    align-self: center;
-    
-
-  }
+ 
